@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class blueButton : MonoBehaviour
 {
+    public GameObject popUp;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +17,9 @@ public class blueButton : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void onClick() {
+        popUp.SetActive(true);
     }
 }
